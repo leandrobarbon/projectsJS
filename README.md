@@ -7,4 +7,4 @@ JavaScript microproject training :books:
 :white_check_mark: - Navbar  </br>
 :white_check_mark: - Sidebar </br>
 :white_check_mark: - Review  </br>
-
+:white_check_mark: - Calculator</br>
