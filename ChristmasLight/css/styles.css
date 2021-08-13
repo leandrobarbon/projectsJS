@@ -1,0 +1,194 @@
+body {
+   background: #000;
+}
+
+h1 {
+   color: #fff;
+}
+
+.boxLed {
+   display: flex;
+}
+
+.ledRed {
+   background: hsl(0, 96%, 11%);
+   width: 128px;
+   height: 128px;
+   border-radius: 50%;
+}
+
+.ledRed-on {
+   background: rgb(255, 0, 0);
+   animation: led 2s ease 1s infinite normal forwards;
+}
+
+.ledRed-alt {
+   background: rgb(255, 0, 0);
+   animation: led 1s ease 1.5s infinite reverse forwards;
+}
+
+.ledRed-fast {
+   background: rgb(255, 0, 0);
+   animation: led 0.4s ease 1s infinite normal both;
+}
+
+.ledOrange {
+   background: rgb(49, 32, 0);
+   width: 128px;
+   height: 128px;
+   border-radius: 50%;
+}
+
+.ledOrange-on {
+   background: rgb(255, 166, 0);
+   animation: led 2s ease 0s infinite normal forwards;
+}
+
+.ledOrange-alt {
+   background: rgb(255, 166, 0);
+   animation: led 1s ease 0s infinite reverse forwards;
+}
+
+.ledOrange-fast {
+   background: rgb(255, 166, 0);
+   animation: led 0.5s ease 1s infinite normal both;
+}
+
+.ledYellow {
+   background: #464700;
+   width: 128px;
+   height: 128px;
+   border-radius: 50%;
+}
+
+.ledYellow-on {
+   background: rgb(255, 230, 0);
+   animation: led 4s ease 1s infinite normal forwards;
+}
+
+.ledYellow-alt {
+   background: rgb(255, 230, 0);
+   animation: led 1s ease 1.5s infinite reverse forwards;
+}
+
+.ledYellow-fast {
+   background: rgb(255, 230, 0);
+   animation: led 0.6s ease 1s infinite normal both;
+}
+
+.ledGreen {
+   background: #003512;
+   width: 128px;
+   height: 128px;
+   border-radius: 50%;
+}
+
+.ledGreen-on {
+   background: rgb(2, 250, 56);
+   animation: led 2s ease 0s infinite normal forwards;
+}
+
+.ledGreen-alt {
+   background: rgb(2, 250, 56);
+   animation: led 1s ease 0s infinite reverse forwards;
+}
+
+.ledGreen-fast {
+   background: rgb(2, 250, 56);
+   animation: led 0.7s ease 1s infinite normal both;
+}
+
+.ledBlueLight {
+   background: rgb(27, 27, 75);
+   width: 128px;
+   height: 128px;
+   border-radius: 50%;
+}
+
+.ledBlueLight-on {
+   background: rgb(0, 195, 255);
+   animation: led 2s ease 1s infinite normal forwards;
+}
+
+.ledBlueLight-alt {
+   background: rgb(0, 195, 255);
+   animation: led 1s ease 1.5s infinite reverse forwards;
+}
+
+.ledBlueLight-fast {
+   background: rgb(0, 195, 255);
+   animation: led 0.8s ease 1s infinite normal both;
+}
+
+.ledBlue {
+   background: rgb(0, 0, 53);
+   width: 128px;
+   height: 128px;
+   border-radius: 50%;
+}
+
+.ledBlue-on {
+   background: rgb(47, 0, 255);
+   animation: led 2s ease 0s infinite normal forwards;
+}
+
+.ledBlue-alt {
+   background: rgb(47, 0, 255);
+   animation: led 1s ease 0s infinite reverse forwards;
+}
+
+.ledBlue-fast {
+   background: rgb(47, 0, 255);
+   animation: led 0.9s ease 1s infinite normal both;
+}
+
+.ledPurple {
+   background: rgb(61, 0, 61);
+   width: 128px;
+   height: 128px;
+   border-radius: 50%;
+}
+
+.ledPurple-on {
+   background: rgb(174, 0, 255);
+   animation: led 2s ease 1s infinite normal forwards;
+}
+
+.ledPurple-alt {
+   background: rgb(174, 0, 255);
+   animation: led 1s ease 1.5s infinite reverse forwards;
+}
+
+.ledPurple-fast {
+   background: rgb(174, 0, 255);
+   animation: led 1s ease 1s infinite normal both;
+}
+
+@keyframes led {
+   0% {
+     opacity: 1;
+   }
+ 
+   50% {
+     opacity: 0.2;
+   }
+ 
+   100% {
+     opacity: 1;
+   }
+ }
+ 
+
+button {
+   margin: 36px 0 36px;
+   padding: 12px 32px 12px;
+   margin-left: 10px;
+
+   background:rgb(27, 27, 75);
+   color: #fff;
+
+   border: none;
+   border-radius: 10px;
+   
+   cursor: pointer;
+}
